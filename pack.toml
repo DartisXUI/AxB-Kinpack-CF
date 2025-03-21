@@ -1,4 +1,4 @@
-name = "Iida's TrainCraft"
+name = "Dartis-Craft AxB Kinpack"
 author = "Dartis-Craft"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "604246dbc282536bf99ac46c6ebe6edef5b9fa500a9c857983661e5f2e174bb9"
+hash = "e49025e70b19e59cb6bac3607f92053b57d1a5a13f9d9c4ba75b2dd3139afefb"
 
 [versions]
 forge = "14.23.5.2860"
