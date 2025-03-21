@@ -1,0 +1,13 @@
+name = "More Road"
+filename = "More Road V3.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f32a6cdc6ea8476a09d43f8880bc57f99b9c88f2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2776089
+project-id = 339291

@@ -1,0 +1,13 @@
+name = "Iida's TrainCraft"
+author = "Dartis-Craft"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "604246dbc282536bf99ac46c6ebe6edef5b9fa500a9c857983661e5f2e174bb9"
+
+[versions]
+forge = "14.23.5.2860"
+minecraft = "1.12.2"
