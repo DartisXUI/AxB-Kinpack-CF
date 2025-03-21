@@ -2,7 +2,7 @@
 # From: Default Template
 
 biomesToSpawnIn=jungle,junglehills,mini jungle
-weight=1
+weight=3
 embed_into_distance=1
 acceptable_target_blocks=stone,grass,dirt,sand,gravel
 dimensions=20,11,12
@@ -14,7 +14,7 @@ leveling_buffer=1
 preserve_water=1
 preserve_lava=0
 preserve_plants=1
-uniqueMinDistance=500
+
 
 rule1=0,100,vine-1
 rule2=0,100,log-3
