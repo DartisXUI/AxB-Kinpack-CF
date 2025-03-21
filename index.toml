@@ -6,11 +6,11 @@ hash = "e877821330ddb20cbc2223fedb1b7518256db3f6fc10c505897c4a8662317053"
 
 [[files]]
 file = "addonpacks/abilities.html"
-hash = "26655bdbf307f0085cb9d41b5e787d93b4ecb29cf96b6c564e48cfbe508e4718"
+hash = "d31ef06aec542cf73a043e0bb599268baa13d375d6b98e36b6a4d9839c264f56"
 
 [[files]]
 file = "addonpacks/sps.zip"
-hash = "2097e6c3118f80a6e000b1610155db5137a09639429de83fd63d294280ac6634"
+hash = "3ab2932af65be8b30b7c8222bd1c9ddaf7151a59ef070d749e7e609b8931fc96"
 
 [[files]]
 file = "config/KeepingInventory.cfg"
