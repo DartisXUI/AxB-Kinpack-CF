@@ -2072,6 +2072,11 @@ hash = "efccb29a152e0d73e5adc558a8a9de93e02626e59ef33ac5050899db08be8a11"
 metafile = true
 
 [[files]]
+file = "mods/aether-ii.pw.toml"
+hash = "ece5f8ded1b8d34341e11fe955d0dca5711f651424cd7e13a2106b11002fe051"
+metafile = true
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "8d1186ecc53aae2bfe20b20ee08c8ae47d4ed5dba17d1e97da1c612b7a7b6c31"
 metafile = true
@@ -2274,6 +2279,11 @@ metafile = true
 [[files]]
 file = "mods/curio.pw.toml"
 hash = "ea2fb93856e1efb608ba5faadc1cf5b21a9909bffd56dfc596cce15639c4ca66"
+metafile = true
+
+[[files]]
+file = "mods/cyclic.pw.toml"
+hash = "a1026af48a53ef8abe2446a994d6f13db4e8cc73097dd508781ac2d99771ed19"
 metafile = true
 
 [[files]]
@@ -2512,6 +2522,11 @@ hash = "ac059137d9062471e4e808c1662b67acf49a263f5ed247086046292a21fda8bb"
 metafile = true
 
 [[files]]
+file = "mods/objectpriorities.pw.toml"
+hash = "d354e9f4c35e14f502209abf2a6cbd8032be4aff3296ab117fda5ca9031dc7de"
+metafile = true
+
+[[files]]
 file = "mods/openblocks.pw.toml"
 hash = "cfb095ac492da4010a1c84b8046238cc38c71dfa7129de3185566d5075cd36d1"
 metafile = true
@@ -2529,6 +2544,11 @@ metafile = true
 [[files]]
 file = "mods/oreberries.pw.toml"
 hash = "b1d2df0821abe5ca65069de2df17f6983fe9bdae9d6a7ec06df82c6d19698b55"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "bf3ab3065a3d3cbf04b5632a6088c9db9381c54c2149c8713748dde1b5859472"
 metafile = true
 
 [[files]]
@@ -2618,7 +2638,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-rpg.pw.toml"
-hash = "f42621e801c333c5d58afd0543d7a7223f9982ba0404b81ca5f2904b7e995f50"
+hash = "7a27f40a9d81021a6f694ead36f25e80e64c8fcd6ebf0d7dfd6058176a5a911c"
 metafile = true
 
 [[files]]
@@ -2639,6 +2659,11 @@ metafile = true
 [[files]]
 file = "mods/the-one-probe.pw.toml"
 hash = "a069130cac596da1efe44eb604eab6e2d166fd3c4f5db675e56c6bb4c76050e4"
+metafile = true
+
+[[files]]
+file = "mods/the-twilight-forest.pw.toml"
+hash = "7af0b8a8e634eab7ecd9e6401ce3c71d6ec1c2c5dae078dee5a526898f88c72c"
 metafile = true
 
 [[files]]
