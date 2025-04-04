@@ -81,4 +81,5 @@ recipes.addShapedMirrored(<actuallyadditions:item_chest_quartz>, [[<actuallyaddi
 recipes.addShapedMirrored(<actuallyadditions:item_pants_quartz>, [[<actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>],[<actuallyadditions:item_misc:5>, null, <actuallyadditions:item_misc:5>],[<actuallyadditions:item_misc:5>, null, <actuallyadditions:item_misc:5>]]);
 recipes.addShapedMirrored(<actuallyadditions:item_boots_quartz>, [[null, null, null],[<actuallyadditions:item_misc:5>, null, <actuallyadditions:item_misc:5>],[<actuallyadditions:item_misc:5>, null, <actuallyadditions:item_misc:5>]]);
 recipes.addShapedMirrored(<enderio:block_experience_obelisk>, [[<minecraft:gold_ingot>, <enderio:item_xp_transfer>, <minecraft:gold_ingot>],[<minecraft:glowstone_dust>, <minecraft:bucket>, <minecraft:glowstone_dust>],[<minecraft:soul_sand>, <minecraft:redstone_block>, <minecraft:soul_sand>]]);
+furnace.setFuel(<minecraft:reeds>, 16000);
 //File End
