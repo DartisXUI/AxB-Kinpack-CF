@@ -162,7 +162,7 @@ hash = "567c291753e88b78caa4bf50c589c026ffadf35efa61d8eb641dd49412c78185"
 
 [[files]]
 file = "config/quark.cfg"
-hash = "cda91b06a7171069e9c462d856293c3240a24f6a84358727f50597943a08fdc7"
+hash = "ef119c23b3f8fa28fe5d2a12fdae455e43267d104fc88487cb236b3ef969cc56"
 
 [[files]]
 file = "config/reccomplex.cfg"
@@ -170,7 +170,7 @@ hash = "6e5f1c09401b8c148d6ee56bab54dfc3cd44915947fc0f4f812db904e4dc5803"
 
 [[files]]
 file = "config/ruins.txt"
-hash = "e1962bb64aa7d8601598e4eeeb63c13b45c58f0c22ff3dea4ee37e065107fe58"
+hash = "8a5b56d9df1a7b7d2fedba7e00e383c306a43b3789b33bdc32489a73b83cbbe8"
 
 [[files]]
 file = "config/ruins_config/beaches/dartiscraft-lighthouse-tesseract-direct-final.tml"
