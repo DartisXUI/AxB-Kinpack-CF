@@ -170,7 +170,7 @@ hash = "6e5f1c09401b8c148d6ee56bab54dfc3cd44915947fc0f4f812db904e4dc5803"
 
 [[files]]
 file = "config/ruins.txt"
-hash = "cfb4ff1e114f05c57890b748b7dc3550e1e6962347d1bc6d122000a83236ff67"
+hash = "d88b478966cded767f66851f5dfa5cfdd54c442f45a2111a352acaf80559b752"
 
 [[files]]
 file = "config/ruins_config/beaches/dartiscraft-lighthouse-tesseract-direct-final.tml"

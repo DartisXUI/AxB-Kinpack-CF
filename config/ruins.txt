@@ -40,7 +40,7 @@ allowedDimensions=0,1,-1
 enableFixedWidthRuleIds=false
 #
 # tileentity blocks, those (nonvanilla)blocks which cannot function without storing their nbt data, full name as stick dictates, seperated by commata
-teblocks=littletiles:blocklittletiles,littletiles:premade,secretroomsmod:secret_redstone,secretroomsmod:secret_lever,secretroomsmod:secret_wooden_door,redstonepaste:redstonepaste,redstonepaste:stickyrepeater,redstonepaste:stickycomparator,enderio:block_conduit_bundle,immersiverailroading:block_rail,bibliocraft:clock,forgemultipartcbe:multipart_block
+teblocks=littletiles:blocklittletiles,littletiles:premade,secretroomsmod:secret_redstone,secretroomsmod:secret_lever,secretroomsmod:secret_wooden_door,redstonepaste:redstonepaste,redstonepaste:stickyrepeater,redstonepaste:stickycomparator,enderio:block_conduit_bundle,immersiverailroading:block_rail,bibliocraft:clock,forgemultipartcbe:multipart_block,blockcraftery:editable_pressure_plate_mobs,blockcraftery:editable_pressure_plate_player
 
 specific_kriffon=75
 specific_lost oasis=75
