@@ -2201,6 +2201,11 @@ hash = "b1fb57b228c59338b92e5427d82dad7ea93090f6f9e89c5ae8531da14a60d042"
 metafile = true
 
 [[files]]
+file = "mods/cb-multipart.pw.toml"
+hash = "8543599cc981cc25fa739c9efad2ffd6ddcbcd10b681e47875bf5e7f87a9262f"
+metafile = true
+
+[[files]]
 file = "mods/chisel.pw.toml"
 hash = "28e43ad8b36998844f2430469c6aead4184e83a0741233cdfeed0dcee4bbefa7"
 metafile = true
@@ -2488,6 +2493,11 @@ metafile = true
 [[files]]
 file = "mods/more-road.pw.toml"
 hash = "d713ce6409545a23457424f28d97493783f870d6efaf2d64055af4407513b4da"
+metafile = true
+
+[[files]]
+file = "mods/mrtjpcore.pw.toml"
+hash = "ae849763d546d4fea042e339ec74f8b0373472f76aeda340cd6bced6ac7754bd"
 metafile = true
 
 [[files]]
