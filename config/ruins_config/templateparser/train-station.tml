@@ -1,0 +1,329 @@
+
+# Created by Ruins mod version 17.2 Ingame Parser
+# authoring Player: Dartis_Xui
+
+# TEMPLATE PARAMETER SETTINGS:
+#
+# criterion expression specifying mod ids required to load template
+# may include plus (AND), minus (AND NOT), comma (OR), and parentheses
+# all required mods listed must be present; no prohibited mods can be
+requiredMods=
+#
+# likelihood this template will be chosen relative to all others
+# e.g., a weight=6 template is chosen 3X as often as one with weight=2
+weight=1
+#
+# list of dimensions in which this template may spawn, even if generic
+# one or more dimension names, separated by commas (blank = all)
+dimensionsToSpawnIn=
+#
+# list of other biomes in which this template may spawn
+# biome corresponding to directory is always assumed, listed or not
+# generic templates should leave this list empty
+biomesToSpawnIn=
+#
+# criterion expression specifying types of biome where template spawns
+# this is in addition to those explicitly listed as biomesToSpawnIn
+# generic templates should leave this list empty
+biomeTypesToSpawnIn=
+#
+# list of biomes in which this template may not spawn
+# takes precedence over biomeTypesToSpawnIn, but NOT biomesToSpawnIn
+# should be empty if biomeTypesToSpawnIn is empty
+biomesToNotSpawnIn=
+#
+# depth template is pushed down into the surface when built
+# offset is min/max range of random additional bury depth
+embed_into_distance=4
+random_height_offset=0,0
+#
+# whitelist/blacklist of block types on which template may be built
+# specify one, not both; leave the other empty (both empty = allow all)
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+#
+# size of template (#layers, #rows per layer, #blocks per row)
+dimensions=10,17,18
+#
+# max number of missing blocks allowed in surface beneath template
+allowable_overhang=0
+#
+# depth/height limit affected by terrain leveling
+# also maximum bumpiness tolerated in surface beneath template
+max_leveling=2
+#
+# padding applied to all sides of template horizontal footprint
+# expands area affected by terrain leveling (-1 = no leveling)
+leveling_buffer=0
+#
+# do not rotate template randomly when built (1 = no rotation)
+preventRotation=1
+#
+# treat water/lava blocks as air and protect them from rule0 (1 = yes)
+preserve_water=0
+preserve_lava=0
+#
+# minimum distance this template must have from instances of itself
+uniqueMinDistance=0
+#
+# min/max distances this template can be from world spawn (0 = no limit)
+# only applies to overworld--i.e., dimension 0
+spawnMinDistance=0
+spawnMaxDistance=0
+#
+# other template built nearby whenever this one is
+# syntax: <name>;<relativeX>;<maxYdifference>;<relativeZ>[;<chance>]
+# may be used more than once to specify multiple neighbors
+adjoining_template=
+
+rule1=0,100,minecraft:stonebrick-0
+rule2=0,100,teBlock;secretroomsmod:secret_redstone;{SecretRoomsMod:{MirroredState:{Properties:{variant:"stonebrick"},Name:"minecraft:stonebrick"},DataVersion:1,locked:0b},id:"minecraft:secretroomsmodtileentityinfomationholder"}-0
+rule3=0,100,teBlock;forgemultipartcbe:multipart_block;{parts:[{subID:1b,orient:1b,shape:0b,connMap:61440,schedTime:-1L,id:"projectred-integration:simple_gate",state:16b}],id:"ccmp:saved_multipart"}-0
+rule4=0,100,minecraft:powered_repeater-5
+rule5=0,100,additional_lights:standing_torch_l_stone_bricks-0
+rule6=0,100,minecraft:powered_repeater-7
+rule7=0,100,teBlock;forgemultipartcbe:multipart_block;{parts:[{subID:1b,orient:3b,shape:0b,connMap:61440,schedTime:-1L,id:"projectred-integration:simple_gate",state:16b}],id:"ccmp:saved_multipart"}-0
+rule8=0,100,teBlock;redstonepaste:redstonepaste;{facedata:[I;0,0,0,0,0,0],id:"minecraft:redstonepastete",faces:[I;0,12,0,0,0,0],facetype:[I;0,0,0,0,0,0]}-0
+rule9=0,100,minecraft:unlit_redstone_torch-5
+rule10=0,100,additional_lights:fire_for_standing_torch_l-0
+rule11=0,100,minecraft:brick_stairs-2
+rule12=0,100,minecraft:cobblestone-0
+rule13=0,100,minecraft:brick_stairs-3
+rule14=0,100,teBlock;secretroomsmod:secret_pressure_plate;{SecretRoomsMod:{MirroredState:{Properties:{variant:"stonebrick"},Name:"minecraft:stonebrick"},DataVersion:1,locked:0b},id:"minecraft:secretroomsmodtileentitysecretpressureplate"}-0
+rule15=0,100,teBlock;secretroomsmod:secret_player_pressure_plate;{SecretRoomsMod:{MirroredState:{Properties:{variant:"stonebrick"},Name:"minecraft:stonebrick"},DataVersion:1,locked:0b},id:"minecraft:secretroomsmodtileentitysecretpressureplate"}-0
+rule16=0,100,minecraft:leaves-4
+rule17=0,100,minecraft:leaves-12
+rule18=0,100,teBlock;forgemultipartcbe:multipart_block;{parts:[{shape:69b,material:"minecraft:planks[variant=oak]",id:"ccmb:mcr_face"}],id:"ccmp:saved_multipart"}-0
+rule19=0,100,additional_lights:al_lamp_oak_planks-1
+rule20=0,100,immersiverailroading:block_rail_gag-0
+rule21=0,100,minecraft:brick_block-0
+rule22=0,100,minecraft:oak_stairs-3
+rule23=0,100,teBlock;forgemultipartcbe:multipart_block;{parts:[{shape:67b,material:"minecraft:planks[variant=oak]",id:"ccmb:mcr_face"}],id:"ccmp:saved_multipart"}-0
+rule24=0,100,minecraft:oak_stairs-1
+rule25=0,100,teBlock;forgemultipartcbe:multipart_block;{parts:[{shape:66b,material:"minecraft:planks[variant=oak]",id:"ccmb:mcr_face"}],id:"ccmp:saved_multipart"}-0
+rule26=0,100,teBlock;forgemultipartcbe:multipart_block;{parts:[{shape:68b,material:"minecraft:planks[variant=oak]",id:"ccmb:mcr_face"}],id:"ccmp:saved_multipart"}-0
+rule27=0,100,malisisdoors:iron_sliding_door-3
+rule28=0,100,malisisdoors:iron_sliding_door-1
+rule29=0,100,teBlock;forgemultipartcbe:multipart_block;{parts:[{shape:71b,material:"minecraft:planks[variant=oak]",id:"ccmb:mcr_edge"}],id:"ccmp:saved_multipart"}-0
+rule30=0,100,minecraft:oak_stairs-7
+rule31=0,100,minecraft:oak_stairs-5
+rule32=0,100,minecraft:oak_stairs-6
+rule33=0,100,teBlock;immersiverailroading:block_rail;{instanceId:"immersiverailroading:block_rail",id:"universalmodcore:tile_track",instanceData:{controlMode:0,parent:{X:0,Y:0,Z:0},railHeight:0.0f,pushPull:1b,snowLayers:0,version:4,flexible:0b,couplerMod:0,redstoneSensitivity:0,redstoneMode:0,info:{settings:{gauge:1.435d,curvosity:1.0f,pos_type:0,isPreview:0b,length:17,type:0,degrees:90.0f,bedItem:{id:"minecraft:air",Count:1b,Damage:0s},bedFill:{id:"minecraft:air",Count:1b,Damage:0s},smoothing:0,isGradeCrossing:0b,track:"default",direction:0},switchForced:0,tablePos:0.0d,custom:{placementPosition:{x:8.5d,y:0.0d,z:0.5d},yaw:270.0f,direction:1},placement:{placementPosition:{x:8.5d,y:0.0d,z:0.5d},yaw:270.0f,direction:1},switchState:0},tableIndex:0,height:0.0f}}-0
+rule34=0,100,minecraft:oak_stairs-4
+rule35=0,100,chisel:glasspanedyedlightblue-0
+rule36=0,100,minecraft:log-0
+rule37=0,100,malisisdoors:iron_sliding_door-8
+rule38=0,100,malisisdoors:iron_sliding_door-9
+rule39=0,100,minecraft:heavy_weighted_pressure_plate-0
+rule40=0,100,teBlock;bibliocraft:clock;{toggleRedstone:0b,chimeSound:0b,shift:0,customTexture:"none",redstonePulse:1b,redstoneSettings:[I;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],tickSound:1b,angle:3,chimeSettings:[I;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],id:"minecraft:clock",position:1,locked:0b,lockee:"",Inventory:[]}-5
+rule41=0,100,teBlock;bibliocraft:clock;{toggleRedstone:0b,chimeSound:0b,shift:0,customTexture:"none",redstonePulse:1b,redstoneSettings:[I;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],tickSound:1b,angle:1,chimeSettings:[I;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],id:"minecraft:clock",position:1,locked:0b,lockee:"",Inventory:[]}-5
+rule42=0,100,teBlock;forgemultipartcbe:multipart_block;{parts:[{shape:68b,material:"minecraft:brick_block",id:"ccmb:mcr_face"},{shape:71b,material:"minecraft:brick_block",id:"ccmb:mcr_edge"},{shape:69b,material:"minecraft:planks[variant=oak]",id:"ccmb:mcr_edge"}],id:"ccmp:saved_multipart"}-0
+rule43=0,100,teBlock;forgemultipartcbe:multipart_block;{parts:[{shape:69b,material:"minecraft:brick_block",id:"ccmb:mcr_face"},{shape:70b,material:"minecraft:brick_block",id:"ccmb:mcr_edge"},{shape:68b,material:"minecraft:planks[variant=oak]",id:"ccmb:mcr_edge"}],id:"ccmp:saved_multipart"}-0
+rule44=0,100,minecraft:brick_stairs-7
+rule45=0,100,minecraft:stone_slab-12
+rule46=0,100,minecraft:brick_stairs-6
+rule47=0,100,minecraft:wooden_slab-0
+rule48=0,100,minecraft:oak_stairs-0
+rule49=0,100,minecraft:oak_stairs-2
+rule50=0,100,minecraft:planks-0
+
+layer
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+layer
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,2,3,2,0,0,0,2,3,2,1
+1,1,1,1,1,1,1,1,0,4,0,0,0,0,0,4,0,1
+1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,1,0,1
+1,1,1,1,1,1,1,1,0,5,0,0,0,0,0,5,0,1
+1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1
+1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1
+1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1
+1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,5,0,1
+1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,1,0,1
+1,1,1,1,1,1,1,1,0,6,0,0,0,0,0,6,0,1
+1,1,1,1,1,1,1,1,2,7,2,0,0,0,2,7,2,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+layer
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,2,0,2,0,0,0,2,0,2,1
+1,1,1,1,1,1,1,1,8,0,8,0,0,0,8,0,8,1
+1,1,1,1,1,1,1,1,8,9,8,0,0,0,8,9,8,1
+1,1,1,1,1,1,1,1,0,10,0,0,0,0,0,10,0,1
+1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1
+1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1
+1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1
+1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,10,0,1
+1,1,1,1,1,1,1,1,8,9,8,0,0,0,8,9,8,1
+1,1,1,1,1,1,1,1,8,0,8,0,0,0,8,0,8,1
+1,1,1,1,1,1,1,1,2,0,2,0,0,0,2,0,2,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+layer
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,12,12,12,11,1,1,1,14,1,14,1,1,1,14,1,14,1
+13,12,12,12,11,1,1,1,14,1,14,1,1,1,14,1,14,1
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,12,12,12,11,1,1,1,15,1,15,1,1,1,15,1,15,1
+13,12,12,12,11,1,1,1,15,1,15,1,1,1,15,1,15,1
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,12,12,12,11,1,1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+layer
+0,20,20,20,0,19,0,18,5,17,17,17,17,17,16,16,5,0
+0,20,20,20,0,19,0,22,16,21,21,21,21,21,21,21,16,0
+0,20,20,20,0,19,0,22,17,21,25,24,24,24,23,21,16,0
+0,20,20,20,0,19,0,26,5,21,5,0,0,0,5,21,5,0
+0,20,20,20,0,19,0,0,0,28,0,0,0,0,0,27,0,0
+0,20,20,20,0,19,0,0,0,28,0,0,0,0,0,27,0,0
+0,20,20,20,0,19,0,18,5,21,5,0,0,0,0,21,5,0
+0,20,20,20,0,19,0,22,17,21,29,29,29,29,29,21,16,0
+0,20,33,20,0,19,0,22,17,21,32,31,31,31,30,21,16,0
+0,20,20,20,0,19,0,22,17,21,32,0,0,0,30,21,16,0
+0,20,20,20,0,19,0,26,5,21,5,0,0,0,5,21,5,0
+0,20,20,20,0,19,0,0,0,28,0,0,0,0,0,27,0,0
+0,20,20,20,0,19,0,0,0,28,0,0,0,0,0,27,0,0
+0,20,20,20,0,19,0,18,5,21,5,0,0,0,5,21,5,0
+0,20,20,20,0,19,0,22,17,21,32,34,34,34,30,21,16,0
+0,20,20,20,0,19,0,22,17,21,21,21,21,21,21,21,16,0
+0,20,20,20,0,19,0,26,5,17,17,17,17,17,16,16,5,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,10,0
+0,0,0,0,0,0,0,0,0,35,35,35,35,35,35,35,0,0
+0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,35,0,0
+0,0,0,0,0,0,0,0,10,36,10,0,0,0,10,36,10,0
+0,0,0,0,0,0,0,0,0,38,0,0,0,0,0,37,0,0
+0,0,0,0,0,0,0,0,0,37,0,0,0,0,0,38,0,0
+0,0,0,0,0,0,0,0,10,36,10,0,0,0,0,36,10,0
+0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,35,0,0
+0,0,0,0,0,0,0,0,0,35,39,39,39,39,39,35,0,0
+0,0,0,0,0,0,0,0,0,35,39,0,0,0,39,35,0,0
+0,0,0,0,0,0,0,0,10,36,10,0,0,0,10,36,10,0
+0,0,0,0,0,0,0,0,0,38,0,0,0,0,0,37,0,0
+0,0,0,0,0,0,0,0,0,37,0,0,0,0,0,38,0,0
+0,0,0,0,0,0,0,0,10,36,10,0,0,0,10,36,10,0
+0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,35,0,0
+0,0,0,0,0,0,0,0,0,35,35,35,35,35,35,35,0,0
+0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,10,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,21,21,21,21,21,21,21,0,0
+0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,21,0,0
+0,0,0,0,0,0,0,0,40,21,41,0,0,0,40,21,0,0
+0,0,0,0,0,0,0,0,0,42,0,0,0,0,0,42,0,0
+0,0,0,0,0,0,0,0,0,43,0,0,0,0,0,43,0,0
+0,0,0,0,0,0,0,0,40,21,41,0,0,0,40,21,0,0
+0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,21,0,0
+0,0,0,0,0,0,0,0,0,21,46,45,45,45,44,21,0,0
+0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,21,0,0
+0,0,0,0,0,0,0,0,40,21,41,0,0,0,40,21,0,0
+0,0,0,0,0,0,0,0,0,42,0,0,0,0,0,42,0,0
+0,0,0,0,0,0,0,0,0,43,0,0,0,0,0,43,0,0
+0,0,0,0,0,0,0,0,40,21,41,0,0,0,40,21,0,0
+0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,21,0,0
+0,0,0,0,0,0,0,0,0,21,21,21,21,21,21,21,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,47,47,47,22,48,48,48,48,48,48,48,48,47
+0,0,0,0,0,47,47,47,22,50,50,50,50,50,50,50,49,47
+0,0,0,0,0,47,47,47,22,50,32,31,31,31,0,50,49,47
+0,0,0,0,0,47,47,47,22,50,32,0,0,0,0,50,49,47
+0,0,0,0,0,47,47,47,22,50,32,0,0,0,0,50,49,47
+0,0,0,0,0,47,47,47,22,50,32,0,0,0,0,50,49,47
+0,0,0,0,0,47,47,47,22,50,32,0,0,0,0,50,49,47
+0,0,0,0,0,47,47,47,22,50,34,34,0,0,0,50,49,47
+0,0,0,0,0,47,47,47,22,50,50,50,50,50,50,50,49,47
+0,0,0,0,0,47,47,47,22,50,31,31,31,31,30,50,49,47
+0,0,0,0,0,47,47,47,22,50,32,0,0,0,30,50,49,47
+0,0,0,0,0,47,47,47,22,50,32,0,0,0,30,50,49,47
+0,0,0,0,0,47,47,47,22,50,32,0,0,0,30,50,49,47
+0,0,0,0,0,47,47,47,22,50,32,0,0,0,30,50,49,47
+0,0,0,0,0,47,47,47,22,50,34,34,34,34,34,50,49,47
+0,0,0,0,0,47,47,47,22,50,50,50,50,50,50,50,49,47
+0,0,0,0,0,47,47,47,24,24,24,24,24,24,24,24,49,47
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,22,48,48,48,48,48,48,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,22,50,50,50,50,50,49,0,0
+0,0,0,0,0,0,0,0,0,24,24,24,24,24,24,49,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,19,0,0,0,19,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,19,0,0,0,19,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,19,0,0,0,19,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+

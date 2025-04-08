@@ -170,7 +170,7 @@ hash = "6e5f1c09401b8c148d6ee56bab54dfc3cd44915947fc0f4f812db904e4dc5803"
 
 [[files]]
 file = "config/ruins.txt"
-hash = "d88b478966cded767f66851f5dfa5cfdd54c442f45a2111a352acaf80559b752"
+hash = "93715e0852c51ad70e59e468e1fa68c5ae2a1971958dec0a026a3b5a9bbb0f76"
 
 [[files]]
 file = "config/ruins_config/beaches/dartiscraft-lighthouse-tesseract-direct-final.tml"
@@ -2043,6 +2043,10 @@ hash = "ba910dda7c5510ee106a4968976489d264528e8e048a23d8fa48059eb762da5f"
 [[files]]
 file = "config/ruins_config/templateparser/taonasg.tml"
 hash = "ad431b81355ef630fc68d2bad9ea994d0d8856cfb2caff1bcf5c51b0b8ea2c7b"
+
+[[files]]
+file = "config/ruins_config/templateparser/train-station.tml"
+hash = "5ec0b3c71954e3b58bdca1021bf5dc1d200ee989726ac9c59e05aee45494249f"
 
 [[files]]
 file = "config/ruins_config/templateparser/trainstation-mkx.tml"
