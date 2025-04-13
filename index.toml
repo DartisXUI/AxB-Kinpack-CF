@@ -141,6 +141,10 @@ file = "config/huntingdim/huntingdim.cfg"
 hash = "90fefa72f012e5c41b4f3fa1320cdbb0e0bd780c00702ceff7d5dd67c8840c1a"
 
 [[files]]
+file = "config/immersiverailroading.cfg"
+hash = "c9390026198a4e00841c1dec99a1f0f8173bb3c27cd907803aa54cc1e2eda84a"
+
+[[files]]
 file = "config/jei/itemBlacklist.cfg"
 hash = "faf20a8a19cec4874bb075fa9115e684504ccf06f58dff4397f25f09c80f8e15"
 
@@ -2382,6 +2386,11 @@ metafile = true
 [[files]]
 file = "mods/hunting-dimension.pw.toml"
 hash = "eaf5eb2a7bb88442ba6e6311da3849ffa6c97ae89e179b88931cde2ce0cb6314"
+metafile = true
+
+[[files]]
+file = "mods/immersive-engineering.pw.toml"
+hash = "0764bde575aca6b60f2e211552e354ec5c7db203e678aedc9b7c1b411690b9d8"
 metafile = true
 
 [[files]]
