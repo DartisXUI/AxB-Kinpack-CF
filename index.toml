@@ -2485,7 +2485,7 @@ metafile = true
 
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "88cf0d79d6f1a152b19ebf81509bf1f3cc80c0c43fc4f543ab09cfd8ab9ea0ba"
+hash = "a65d8113c60c45892d1b920b2e4ae5a8c666c735617172c71bfb4ab1932b473f"
 metafile = true
 
 [[files]]
@@ -2790,7 +2790,7 @@ metafile = true
 
 [[files]]
 file = "mods/u-team-core.pw.toml"
-hash = "7ff56c6213a1c7b34d9ae408155c2dc70b3a02d1707d713a9cc1b94226546995"
+hash = "6ba1099e93560d740acdc054cdaeef958be3386faab77c519959805d3138c9f7"
 metafile = true
 
 [[files]]
